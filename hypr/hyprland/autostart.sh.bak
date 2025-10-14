@@ -1,0 +1,5 @@
+#!/bin/bash
+# Hyprland Autostart Script
+
+# Start Hyprlock after 2 seconds so Hyprland is ready
+(sleep 2 && ~/.config/hypr/hyprlock_start.sh) &
